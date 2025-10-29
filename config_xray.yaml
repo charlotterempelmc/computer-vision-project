@@ -1,0 +1,29 @@
+path: /Users/Charlotte/Desktop/X-ray
+train: /Users/Charlotte/Desktop/X-ray/train
+#test: (test dataset folder path)
+val: /Users/Charlotte/Desktop/X-ray/valid
+
+# Classes
+nc: 18 # replace based on your dataset's number of classes
+
+# Class names
+# replace all class names with your own classes' names
+names:
+  0: Aortic enlargement
+  1: Atelectasis
+  2: Calcification
+  3: Cardiomegaly
+  4: Consolidation
+  5: Effusion
+  6: ILD
+  7: Infiltrate
+  8: Infiltration
+  9: Lung Opacity
+  10: Mass
+  11: Nodule
+  12: Nodule-Mass
+  13: Pleural effusion
+  14: Pleural thickening
+  15: Pneumonia
+  16: Pneumothorax
+  17: Pulmonary fibrosis
