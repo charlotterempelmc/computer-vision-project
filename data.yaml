@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Aortic enlargement', 'Cardiomegaly', 'Pleural thickening', 'Pulmonary fibrosis']
+
+roboflow:
+  workspace: 360-yvhun
+  project: x-ray-adnre-zyxiu
+  version: 4
+  license: Public Domain
+  url: https://universe.roboflow.com/360-yvhun/x-ray-adnre-zyxiu/dataset/4
