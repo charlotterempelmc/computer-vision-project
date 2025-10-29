@@ -1,0 +1,14 @@
+path: /Users/Charlotte/Desktop/X-ray
+train: /Users/Charlotte/Desktop/X-ray/train
+test: /Users/Charlotte/Desktop/X-ray/test
+val: /Users/Charlotte/Desktop/X-ray/valid
+
+# Classes
+nc: 3 # replace based on your dataset's number of classes
+
+# Class names
+# replace all class names with your own classes' names
+names:
+  0: Aortic enlargement
+  1: Cardiomegaly
+  2: Pulmonary fibrosis
